@@ -14,5 +14,5 @@ get '/goodbye' do
 end
 
 get '/cat' do
-  '<img src="https://i.imgur.com/jFaSxym.png" style="border: dashed red">'
+  erb(:index)
 end
